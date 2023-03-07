@@ -1,0 +1,117 @@
+
+/* Head 2 represents all of the headers*/
+.Head2 {
+  font-size: 40px;
+  text-align: center; /* Aligns text*/
+  background-color: rgb(99, 85, 59, 0.3 ); /* Background color to merge with blending mode to make text readable*/
+  color: white; /* Color of the texts */
+  padding: 10px; /* Space around the text */
+  font-family: /* Font family of text*/
+}
+
+
+/*Website head title*/
+.H2 {
+  font-size: 50px;
+  text-align: center; /* Aligns text*/
+  background-color: rgb(99, 85, 59, 0.3 ); /* Background color to merge with blending mode to make text readable*/
+  color: white; /* Color of the texts */
+  padding: 10px; /* Space around the text */
+  font-family:sans-serif /* Font family of text*/
+}
+
+/*Artists headers*/
+.H3 {
+  font-size: 30px;
+  text-align: center; /* Aligns text*/
+  background-color: rgba(31, 14, 14, 0.4); /* Background color to merge with blending mode to make text readable*/
+  background-blend-mode: multiply;
+  color: white; /* Color of the texts */
+  padding: 10px; /* Space around the text */
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif /* Font family of text*/
+}
+
+
+/* Yerr represents all of the paragrapghs*/ 
+.Yerr{
+  line-height: 30px; /* Space between the paragraph line space*/
+  border: 2px solid #000000; /* border of the boxes that contain text */
+  padding: 10px; /* Space around the text*/
+  margin-left: 15px; /* Margin of the text from the left */
+  background-image: url('images/Pop art 4.jpg'); /* Background image behind the text */
+  background-color: rgb(31, 6, 6); /* Background color to blend so the text is more readable */
+  background-blend-mode: multiply;
+  color: white; /* Text color*/
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif /* Font family*/
+}
+
+/*Press represents the buttons for navigating web pages*/ 
+.Press {
+  
+  background-color: hsl(27, 23%, 64%); /* Backgrpund color of the button*/
+  border: none; /* No border around the button */
+  color: white; /* Text color */
+  padding: 3px; /* button size and width*/
+  text-align: center; /* Alignment of text */
+  text-decoration: none; /* No text decoration */
+  display: inline-block; /* Inline sizes the buttons */
+  font-size: 16px; /* Font size */
+  margin: 4px 2px; /* Margin for the buttons*/
+  cursor: pointer; /* Changes cursor to a pointer  */
+  padding: 12px;
+}
+
+/*Footer represents the foot notes at the bottom of this page*/
+.Footer {
+  text-align: center; /* Aligns text to the center*/
+  color: rgb(255, 255, 255); /* Text color */
+}
+
+/*Body represents the overall background of the webpage*/
+body {
+  background-image: url('images/Pop art 1.jpg'); /* Overall background image*/
+  background-color: rgb(41, 40, 40); /* Dark color to blend to make the page readable*/
+  background-blend-mode: multiply; /* Blending mode*/
+  background-attachment: fixed; /*Holds background image in place*/
+}
+
+/*Centering images*/
+.center {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Yerr2{
+  line-height: 40px; /* Space between the paragraph line space*/
+  border: 2px solid #000000; /* border of the boxes that contain text */
+  padding: 10px; /* Space around the text*/
+  margin-left: 15px; /* Margin of the text from the left */
+  background-image: url('images/Pop art 4.jpg'); /* Background image behind the text */
+  background-color: rgb(31, 4, 4); /* Background color to blend so the text is more readable */
+  background-blend-mode: multiply;
+  color: white; /* Text color*/
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif /* Font family*/
+}
+
+
+/*References page*/
+.Yerr5{
+  font-size: ;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  line-height: 40px; /* Space between the paragraph line space*/
+  border: 2px solid #000000; /* border of the boxes that contain text */
+  padding: 10px; /* Space around the text*/
+  margin-left: 15px; /* Margin of the text from the left */
+  background-image: url('images/Pop art 4.jpg'); /* Background image behind the text */
+  background-color: rgb(49, 11, 11); /* Background color to blend so the text is more readable */
+  background-blend-mode: multiply;
+  color: white; /* Text color*/
+ /* Font family*/
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+}
