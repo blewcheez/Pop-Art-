@@ -38,7 +38,7 @@
   border: 2px solid #000000; /* border of the boxes that contain text */
   padding: 10px; /* Space around the text*/
   margin-left: 15px; /* Margin of the text from the left */
-  background-image: url('images/Pop art 4.jpg'); /* Background image behind the text */
+  background-image: url('Images/Pop art 4.jpg'); /* Background image behind the text */
   background-color: rgb(31, 6, 6); /* Background color to blend so the text is more readable */
   background-blend-mode: multiply;
   color: white; /* Text color*/
@@ -69,7 +69,7 @@
 
 /*Body represents the overall background of the webpage*/
 body {
-  background-image: url('images/Pop art 1.jpg'); /* Overall background image*/
+  background-image: url('Images/Pop art 1.jpg'); /* Overall background image*/
   background-color: rgb(41, 40, 40); /* Dark color to blend to make the page readable*/
   background-blend-mode: multiply; /* Blending mode*/
   background-attachment: fixed; /*Holds background image in place*/
@@ -88,7 +88,7 @@ body {
   border: 2px solid #000000; /* border of the boxes that contain text */
   padding: 10px; /* Space around the text*/
   margin-left: 15px; /* Margin of the text from the left */
-  background-image: url('images/Pop art 4.jpg'); /* Background image behind the text */
+  background-image: url('Images/Pop art 4.jpg'); /* Background image behind the text */
   background-color: rgb(31, 4, 4); /* Background color to blend so the text is more readable */
   background-blend-mode: multiply;
   color: white; /* Text color*/
@@ -104,7 +104,7 @@ body {
   border: 2px solid #000000; /* border of the boxes that contain text */
   padding: 10px; /* Space around the text*/
   margin-left: 15px; /* Margin of the text from the left */
-  background-image: url('images/Pop art 4.jpg'); /* Background image behind the text */
+  background-image: url('Images/Pop art 4.jpg'); /* Background image behind the text */
   background-color: rgb(49, 11, 11); /* Background color to blend so the text is more readable */
   background-blend-mode: multiply;
   color: white; /* Text color*/
